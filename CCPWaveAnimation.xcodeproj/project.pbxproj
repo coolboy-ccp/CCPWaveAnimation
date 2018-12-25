@@ -12,6 +12,8 @@
 		00201CF721D230B4004F8618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00201CF521D230B4004F8618 /* Main.storyboard */; };
 		00201CF921D230B5004F8618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00201CF821D230B5004F8618 /* Assets.xcassets */; };
 		00201CFC21D230B5004F8618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00201CFA21D230B5004F8618 /* LaunchScreen.storyboard */; };
+		00201D1A21D230DD004F8618 /* WavePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00201D1821D230DD004F8618 /* WavePath.swift */; };
+		00201D1B21D230DD004F8618 /* WaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00201D1921D230DD004F8618 /* WaveAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		00201CF821D230B5004F8618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00201CFB21D230B5004F8618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00201CFD21D230B5004F8618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00201D1821D230DD004F8618 /* WavePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WavePath.swift; sourceTree = "<group>"; };
+		00201D1921D230DD004F8618 /* WaveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		00201CF021D230B4004F8618 /* CCPWaveAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				00201D1721D230DD004F8618 /* WaveAnimation */,
 				00201CF121D230B4004F8618 /* AppDelegate.swift */,
 				00201CF321D230B4004F8618 /* ViewController.swift */,
 				00201CF521D230B4004F8618 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				00201CFD21D230B5004F8618 /* Info.plist */,
 			);
 			path = CCPWaveAnimation;
+			sourceTree = "<group>";
+		};
+		00201D1721D230DD004F8618 /* WaveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				00201D1821D230DD004F8618 /* WavePath.swift */,
+				00201D1921D230DD004F8618 /* WaveAnimation.swift */,
+			);
+			path = WaveAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00201CF421D230B4004F8618 /* ViewController.swift in Sources */,
+				00201D1B21D230DD004F8618 /* WaveAnimation.swift in Sources */,
+				00201D1A21D230DD004F8618 /* WavePath.swift in Sources */,
 				00201CF221D230B4004F8618 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
