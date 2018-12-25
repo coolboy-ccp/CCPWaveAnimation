@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint WaveView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint CCPWaveAnimation.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "WaveView"
+  s.name         = "CCPWaveAnimation"
   s.version      = "1.0"
   s.summary      = "UIView wave animation"
   s.swift_version = "4.2"
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "波浪动画"
 
-  s.homepage     = "https://github.com/coolboy-ccp/WaveView"
+  s.homepage     = "https://github.com/coolboy-ccp/CCPWaveAnimation"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/coolboy-ccp/WaveView.git", :tag => "1.0" }
+  s.source       = { :git => "hhttps://github.com/coolboy-ccp/CCPWaveAnimation.git", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "WaveView/WaveAnimation", "*.swift"
+  s.source_files  = "CCPWaveAnimation/WaveAnimation", "*.swift"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
