@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "hhttps://github.com/coolboy-ccp/CCPWaveAnimation.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/coolboy-ccp/CCPWaveAnimation.git", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
